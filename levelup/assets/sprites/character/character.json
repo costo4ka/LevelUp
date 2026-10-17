@@ -1,0 +1,345 @@
+{
+  "frame": 64,
+  "bases": {
+    "m": {
+      "title": "Он",
+      "layers": {
+        "shadow": {
+          "file": "m/shadow.png",
+          "z": 0,
+          "slot": "shadow"
+        },
+        "body": {
+          "file": "m/body.png",
+          "z": 10,
+          "slot": "body"
+        },
+        "head": {
+          "file": "m/head.png",
+          "z": 100,
+          "slot": "head"
+        },
+        "hair_1": {
+          "file": "m/hair_1.png",
+          "z": 120,
+          "slot": "hair"
+        },
+        "hair_2": {
+          "file": "m/hair_2.png",
+          "z": 120,
+          "slot": "hair"
+        },
+        "hair_3": {
+          "file": "m/hair_3.png",
+          "z": 120,
+          "slot": "hair"
+        },
+        "hair_4": {
+          "file": "m/hair_4.png",
+          "z": 120,
+          "slot": "hair"
+        },
+        "hair_5": {
+          "file": "m/hair_5.png",
+          "z": 120,
+          "slot": "hair"
+        },
+        "tee": {
+          "file": "m/tee.png",
+          "z": 35,
+          "slot": "torso"
+        },
+        "jeans": {
+          "file": "m/jeans.png",
+          "z": 20,
+          "slot": "legs"
+        },
+        "shoes": {
+          "file": "m/shoes.png",
+          "z": 15,
+          "slot": "feet"
+        },
+        "sneakers": {
+          "file": "m/sneakers.png",
+          "z": 15,
+          "slot": "feet"
+        },
+        "headband": {
+          "file": "m/headband.png",
+          "z": 125,
+          "slot": "headwear"
+        },
+        "wristbands": {
+          "file": "m/wristbands.png",
+          "z": 70,
+          "slot": "wrists"
+        },
+        "medal": {
+          "file": "m/medal.png",
+          "z": 92,
+          "slot": "medal"
+        },
+        "shirt": {
+          "file": "m/shirt.png",
+          "z": 35,
+          "slot": "torso"
+        },
+        "blazer": {
+          "file": "m/blazer.png",
+          "z": 55,
+          "slot": "jacket"
+        },
+        "tie": {
+          "file": "m/tie.png",
+          "z": 90,
+          "slot": "neck"
+        },
+        "trousers": {
+          "file": "m/trousers.png",
+          "z": 20,
+          "slot": "legs"
+        },
+        "dress_shoes": {
+          "file": "m/dress_shoes.png",
+          "z": 15,
+          "slot": "feet"
+        },
+        "glasses": {
+          "file": "m/glasses.png",
+          "z": 115,
+          "slot": "face"
+        }
+      },
+      "default": [
+        "shadow",
+        "body",
+        "head",
+        "hair_1",
+        "tee",
+        "jeans",
+        "shoes"
+      ],
+      "stages": {
+        "2": [
+          "hair_2"
+        ],
+        "3": [
+          "hair_3"
+        ],
+        "4": [
+          "hair_4"
+        ],
+        "5": [
+          "hair_5"
+        ]
+      },
+      "tiers": {
+        "sport": {
+          "1": [],
+          "2": [
+            "sneakers",
+            "headband"
+          ],
+          "3": [
+            "medal",
+            "wristbands"
+          ]
+        },
+        "work": {
+          "1": [],
+          "2": [
+            "shirt",
+            "blazer"
+          ],
+          "3": [
+            "tie",
+            "trousers",
+            "dress_shoes"
+          ]
+        },
+        "study": {
+          "1": [],
+          "2": [
+            "glasses"
+          ],
+          "3": []
+        },
+        "social": {
+          "1": [],
+          "2": [],
+          "3": []
+        }
+      }
+    },
+    "w": {
+      "title": "Она",
+      "layers": {
+        "shadow": {
+          "file": "w/shadow.png",
+          "z": 0,
+          "slot": "shadow"
+        },
+        "body": {
+          "file": "w/body.png",
+          "z": 10,
+          "slot": "body"
+        },
+        "head": {
+          "file": "w/head.png",
+          "z": 100,
+          "slot": "head"
+        },
+        "hair_1": {
+          "file": "w/hair_1.png",
+          "z": 120,
+          "slot": "hair"
+        },
+        "hair_2": {
+          "file": "w/hair_2.png",
+          "z": 120,
+          "slot": "hair"
+        },
+        "hair_3": {
+          "file": "w/hair_3.png",
+          "z": 120,
+          "slot": "hair"
+        },
+        "hair_4": {
+          "file": "w/hair_4.png",
+          "z": 120,
+          "slot": "hair"
+        },
+        "hair_5": {
+          "file": "w/hair_5.png",
+          "z": 120,
+          "slot": "hair"
+        },
+        "tee": {
+          "file": "w/tee.png",
+          "z": 35,
+          "slot": "torso"
+        },
+        "jeans": {
+          "file": "w/jeans.png",
+          "z": 20,
+          "slot": "legs"
+        },
+        "shoes": {
+          "file": "w/shoes.png",
+          "z": 15,
+          "slot": "feet"
+        },
+        "sneakers": {
+          "file": "w/sneakers.png",
+          "z": 15,
+          "slot": "feet"
+        },
+        "headband": {
+          "file": "w/headband.png",
+          "z": 125,
+          "slot": "headwear"
+        },
+        "wristbands": {
+          "file": "w/wristbands.png",
+          "z": 70,
+          "slot": "wrists"
+        },
+        "medal": {
+          "file": "w/medal.png",
+          "z": 92,
+          "slot": "medal"
+        },
+        "shirt": {
+          "file": "w/shirt.png",
+          "z": 35,
+          "slot": "torso"
+        },
+        "blazer": {
+          "file": "w/blazer.png",
+          "z": 55,
+          "slot": "jacket"
+        },
+        "tie": {
+          "file": "w/tie.png",
+          "z": 90,
+          "slot": "neck"
+        },
+        "trousers": {
+          "file": "w/trousers.png",
+          "z": 20,
+          "slot": "legs"
+        },
+        "dress_shoes": {
+          "file": "w/dress_shoes.png",
+          "z": 15,
+          "slot": "feet"
+        },
+        "glasses": {
+          "file": "w/glasses.png",
+          "z": 115,
+          "slot": "face"
+        }
+      },
+      "default": [
+        "shadow",
+        "body",
+        "head",
+        "hair_1",
+        "tee",
+        "jeans",
+        "shoes"
+      ],
+      "stages": {
+        "2": [
+          "hair_2"
+        ],
+        "3": [
+          "hair_3"
+        ],
+        "4": [
+          "hair_4"
+        ],
+        "5": [
+          "hair_5"
+        ]
+      },
+      "tiers": {
+        "sport": {
+          "1": [],
+          "2": [
+            "sneakers",
+            "headband"
+          ],
+          "3": [
+            "medal",
+            "wristbands"
+          ]
+        },
+        "work": {
+          "1": [],
+          "2": [
+            "shirt",
+            "blazer"
+          ],
+          "3": [
+            "tie",
+            "trousers",
+            "dress_shoes"
+          ]
+        },
+        "study": {
+          "1": [],
+          "2": [
+            "glasses"
+          ],
+          "3": []
+        },
+        "social": {
+          "1": [],
+          "2": [],
+          "3": []
+        }
+      }
+    }
+  }
+}

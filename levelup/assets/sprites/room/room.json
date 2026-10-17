@@ -1,0 +1,19 @@
+{
+  "scene": [192, 128],
+  "character_anchor": [64, 56],
+  "floor_y": 96,
+  "compact_crop": [32, 32, 128, 96],
+  "background": "room/background.png",
+  "props": {
+    "sport_3": {"file": "room/props/sport_3.png", "layer": "back", "order": 10},
+    "work_1": {"file": "room/props/work_1.png", "layer": "back", "order": 20},
+    "study_3": {"file": "room/props/study_3.png", "layer": "back", "order": 30},
+    "social_1": {"file": "room/props/social_1.png", "layer": "back", "order": 40},
+    "social_3": {"file": "room/props/social_3.png", "layer": "back", "order": 50},
+    "sport_1": {"file": "room/props/sport_1.png", "layer": "front", "order": 10},
+    "work_3": {"file": "room/props/work_3.png", "layer": "front", "order": 20},
+    "study_1": {"file": "room/props/study_1.png", "layer": "front", "order": 30},
+    "social_2": {"file": "room/props/social_2.png", "layer": "front", "order": 40}
+  },
+  "lighting": {"social_3": "room/lighting_warm.png"}
+}
