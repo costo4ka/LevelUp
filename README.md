@@ -103,6 +103,7 @@ tools/
 
 ## Графика, шрифты и лицензии
 
+- **Код приложения** распространяется по лицензии GNU GPL v3 (файл `LICENSE`): приложение использует PyQt6 (GPL v3) и Qt (LGPL v3).
 - **Герой** собран из слоёв проекта Liberated Pixel Cup (Universal LPC Spritesheet Character Generator): один кадр каждого слоя, перекрашен заменой палитры. Лицензии CC-BY-SA 3.0, GPL 3.0 и OGA-BY 3.0 (по каждому предмету свои), авторы перечислены в `levelup/assets/sprites/character/CREDITS.md` и в окне «О программе». Файлы героя нужно распространять вместе с этим списком; часть предметов под CC-BY-SA/GPL, поэтому папку `sprites/character/` следует распространять под CC-BY-SA 3.0. Лицензии относятся к картинкам, а не к коду приложения.
 - **Комната, предметы, значки и эффекты** нарисованы для проекта кодом (`tools/build_room.py`), чужих ресурсов в них нет.
 - **Шрифт** Ark Pixel Font (10px proportional) © TakWolf, SIL Open Font License 1.1, текст лицензии рядом с файлом: `levelup/assets/fonts/OFL-ArkPixel.txt`.
